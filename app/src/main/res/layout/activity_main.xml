@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/startServiceButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Navigation"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/uploadMapButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload Indoor Map"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/azimuthView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Heading: "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/positionView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Position: 0, 0"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/stepView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Steps: 0"
+        android:textSize="18sp" />
+
+    <com.kisal.indoorsmart.MapView
+        android:id="@+id/positionCanvas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F0F0F0" />
+
+</LinearLayout>

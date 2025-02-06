@@ -1,6 +1,6 @@
 # Indoor Navigation System Using Sensor Fusion
 
-This Android-based Indoor Navigation System uses sensor fusion and a dead-reckoning algorithm to calculate the user's position and estimate movement within an indoor environment. The system runs continuously in the background as a foreground service, providing real-time updates of the user's location.
+This Android-based Indoor Navigation System uses sensor fusion and a dead-reckoning algorithm to calculate the user's position and estimate movement within an indoor environment (Without GPS Signals). The system runs continuously in the background as a foreground service, providing real-time updates of the user's location.
 
 ## How It Works
 

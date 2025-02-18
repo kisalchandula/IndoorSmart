@@ -43,7 +43,7 @@ public class PositionUpdater {
         return (float) (0.98 * Math.cbrt(meanAcceleration));
     }
 
-    // Update position using the logic from the screenshot
+    // Update position based on angle
     private void updatePosition(int stepDifference, float strideLength) {
         float distance = stepDifference * strideLength;
         float X0 = position[0]; // Previous X position

@@ -31,7 +31,7 @@ public class MapView extends View {
         paint = new Paint();
 
         // Initialize user path drawing
-        pathPaint.setColor(0xFF0000FF); // Blue color for the path
+        pathPaint.setColor(0xFF0000FF); // color for the path
         pathPaint.setStyle(Paint.Style.STROKE);
         pathPaint.setStrokeWidth(5); // Thickness of the path
         pathPaint.setAntiAlias(true);
@@ -53,7 +53,7 @@ public class MapView extends View {
 
         // Check if the floor map is null
         if (floorMapBitmap == null) {
-            paint.setColor(0xFF000000); // Black color
+            paint.setColor(0xFF000000);
             paint.setTextSize(50); // Set text size
             paint.setTextAlign(Paint.Align.CENTER);
             paint.setStyle(Paint.Style.FILL);
@@ -91,7 +91,7 @@ public class MapView extends View {
 
         // Draw the position indicator
         if (pointX >= 0 && pointY >= 0) {
-            paint.setColor(0xFFFF0000); // Red color
+            paint.setColor(0xFFFF0000);
             paint.setStyle(Paint.Style.FILL);
             canvas.drawCircle(pointX, pointY, 10, paint); // Draw a point at (x, y)
         }
